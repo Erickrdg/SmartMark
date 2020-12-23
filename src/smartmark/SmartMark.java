@@ -5,6 +5,8 @@
  */
 package smartmark;
 
+import Views.LoginSmartMark;
+
 /**
  *
  * @author FireX
@@ -15,7 +17,14 @@ public class SmartMark {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+            LoginSmartMark loginForm = new LoginSmartMark();
+                
+                loginForm.setVisible(true);
+            }
+        });  
     }
     
 }
