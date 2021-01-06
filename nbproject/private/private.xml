@@ -3,11 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/LoginSmarMark.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Modelos/Clientes.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Modelos/BodegaPrincipal.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Modelos/Producto.java</file>
             <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/LoginSmartMark.java</file>
-            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/SmartConexion/SQLServerConnection.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Modelos/Vendedores.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Modelos/InventarioShowroom.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Modelos/BodegaConsumibles.java</file>
             <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/SmartViewMain.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Modelos/Proveedores.java</file>
             <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/smartmark/SmartMark.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Modelos/Facturas.java</file>
         </group>
     </open-files>
 </project-private>
