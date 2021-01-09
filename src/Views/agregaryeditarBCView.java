@@ -9,12 +9,12 @@ package Views;
  *
  * @author FireX
  */
-public class agregaryeditarView extends javax.swing.JInternalFrame {
+public class agregaryeditarBCView extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form agregaryeditarView
      */
-    public agregaryeditarView() {
+    public agregaryeditarBCView() {
         initComponents();
     }
 
