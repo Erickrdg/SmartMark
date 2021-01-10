@@ -3,17 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/BConsumiblesView.java</file>
-            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/facturaView.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/agregaryeditarinventarioShowroomView.java</file>
             <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/ProveedoresView.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/agregaryeditarBCView.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/agregaryeditarBPView.java</file>
             <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/VendedoresView.java</file>
-            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/BprincipalView.java</file>
-            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/ClientesView.java</file>
-            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/smartmark/MainPanel.java</file>
-            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/smartmark/SmartMark.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/agregaryeditarClientesView.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/agregaryeditarVendoresView.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/agregaryeditarFacturasView.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/agregaryeditarProveedoresView.java</file>
             <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/ProductoView.java</file>
-            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/MainView.java</file>
-            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/InvShowroomView.java</file>
+            <file>file:/C:/Users/FireX/Documents/NetBeansProjects/SmartMark/src/Views/agregaryeditarProductoView.java</file>
         </group>
     </open-files>
 </project-private>
