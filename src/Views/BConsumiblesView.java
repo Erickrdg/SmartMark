@@ -33,12 +33,21 @@ public class BConsumiblesView extends javax.swing.JInternalFrame {
         recargarBtton = new javax.swing.JButton();
 
         crearBoton.setText("Crear");
+        crearBoton.setActionCommand("Crear Producto");
+        crearBoton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                crearBotonActionPerformed(evt);
+            }
+        });
 
         editarBton.setText("Editar");
+        editarBton.setActionCommand("edicionconsumible");
 
         eliminarBtton.setText("Eliminar");
+        eliminarBtton.setActionCommand("eliminarconsumible");
 
         recargarBtton.setText("Recargar");
+        recargarBtton.setActionCommand("recargarconsumible");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -69,6 +78,10 @@ public class BConsumiblesView extends javax.swing.JInternalFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void crearBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_crearBotonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_crearBotonActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

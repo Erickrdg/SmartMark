@@ -33,6 +33,7 @@ public class VendedoresView extends javax.swing.JInternalFrame {
         recargarBoton = new javax.swing.JButton();
 
         crearBoton.setText("Crear");
+        crearBoton.setActionCommand("crearvendedor");
         crearBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 crearBotonActionPerformed(evt);
@@ -40,10 +41,13 @@ public class VendedoresView extends javax.swing.JInternalFrame {
         });
 
         editarBoton.setText("Editar");
+        editarBoton.setActionCommand("editarvendedor");
 
         eliminarBoton.setText("Eliminar");
+        eliminarBoton.setActionCommand("eliminarvendedor");
 
         recargarBoton.setText("Recargar");
+        recargarBoton.setActionCommand("recargarvendedor");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

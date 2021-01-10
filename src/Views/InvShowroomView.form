@@ -51,6 +51,7 @@
     <Component class="javax.swing.JButton" name="crearBoton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Crear"/>
+        <Property name="actionCommand" type="java.lang.String" value="crearproducto"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="crearBotonActionPerformed"/>
@@ -59,16 +60,19 @@
     <Component class="javax.swing.JButton" name="editarBoton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Editar"/>
+        <Property name="actionCommand" type="java.lang.String" value="editarproducto"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="eliminarBoton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Eliminar"/>
+        <Property name="actionCommand" type="java.lang.String" value="eliminarproducto"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="recargarBoton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Recargar"/>
+        <Property name="actionCommand" type="java.lang.String" value="recargarproducto"/>
       </Properties>
     </Component>
   </SubComponents>

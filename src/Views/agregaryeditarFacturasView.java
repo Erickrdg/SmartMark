@@ -55,8 +55,10 @@ public class agregaryeditarFacturasView extends javax.swing.JInternalFrame {
         jLabel6.setText("Codigo Sap");
 
         agregarboton.setText("Agregar");
+        agregarboton.setActionCommand("agregarcampos");
 
         limpiarboton.setText("Limpiar");
+        limpiarboton.setActionCommand("limpiarcampos");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

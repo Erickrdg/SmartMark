@@ -44,8 +44,10 @@ public class agregaryeditarinventarioShowroomView extends javax.swing.JInternalF
         jLabel3.setText("Nombre Producto");
 
         agregarboton.setText("Agregar");
+        agregarboton.setActionCommand("agregarcampos");
 
         limpiarboton.setText("Limpiar");
+        limpiarboton.setActionCommand("limpiarcampos");
 
         jLabel4.setText("Inventario Showroom");
 

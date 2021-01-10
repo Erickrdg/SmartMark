@@ -5,11 +5,23 @@
  */
 package Controladoresview;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 /**
  *
  * @author FireX
  */
-public class ControladorBConsumible {
+public class ControladorBConsumible implements ActionListener {
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+    switch (e.getActionCommand()){
+         
+        
+        
+    }
+    }
     
     
     

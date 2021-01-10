@@ -116,6 +116,7 @@
     <Component class="javax.swing.JButton" name="agregarboton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Agregar"/>
+        <Property name="actionCommand" type="java.lang.String" value="agregarcampos"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarbotonActionPerformed"/>
@@ -124,6 +125,7 @@
     <Component class="javax.swing.JButton" name="limpiarboton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Limpiar"/>
+        <Property name="actionCommand" type="java.lang.String" value="limpiarcampos"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtcodigocliente">

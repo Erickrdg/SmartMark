@@ -107,11 +107,13 @@
     <Component class="javax.swing.JButton" name="agregarboton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Agregar"/>
+        <Property name="actionCommand" type="java.lang.String" value="agregarcampos"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="limpiarboton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Limpiar"/>
+        <Property name="actionCommand" type="java.lang.String" value="limpiarcampos"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">

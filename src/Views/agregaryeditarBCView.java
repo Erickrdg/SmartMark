@@ -40,6 +40,7 @@ public class agregaryeditarBCView extends javax.swing.JInternalFrame {
         jLabel5 = new javax.swing.JLabel();
 
         agregarBoton.setText("Agregar");
+        agregarBoton.setActionCommand("agregarcampos");
         agregarBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 agregarBotonActionPerformed(evt);
@@ -47,6 +48,7 @@ public class agregaryeditarBCView extends javax.swing.JInternalFrame {
         });
 
         limpiarBoton.setText("Limpiar");
+        limpiarBoton.setActionCommand("limpiarcampos");
 
         jLabel1.setText("CodigoSapBod");
 

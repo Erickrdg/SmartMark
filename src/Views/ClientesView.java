@@ -33,6 +33,7 @@ public class ClientesView extends javax.swing.JInternalFrame {
         recargarBoton = new javax.swing.JButton();
 
         crearBoton.setText("Crear");
+        crearBoton.setActionCommand("crearproducto");
         crearBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 crearBotonActionPerformed(evt);

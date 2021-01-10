@@ -54,8 +54,10 @@ public class agregaryeditarProductoView extends javax.swing.JInternalFrame {
         });
 
         agregarboton.setText("Agregar");
+        agregarboton.setActionCommand("agregarcampos");
 
         limpiarboton.setText("Limpiar");
+        limpiarboton.setActionCommand("limpiarcampos");
 
         jLabel5.setText("Producto");
 

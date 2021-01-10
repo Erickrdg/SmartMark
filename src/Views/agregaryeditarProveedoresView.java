@@ -46,8 +46,10 @@ public class agregaryeditarProveedoresView extends javax.swing.JInternalFrame {
         jLabel4.setText("Proveedores");
 
         agregarboton.setText("Agregar");
+        agregarboton.setActionCommand("agregarcampos");
 
         limpiarboton.setText("Limpiar");
+        limpiarboton.setActionCommand("limpiarcampos");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

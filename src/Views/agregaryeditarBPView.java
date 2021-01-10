@@ -39,8 +39,10 @@ public class agregaryeditarBPView extends javax.swing.JInternalFrame {
         txtdescripcion = new javax.swing.JTextField();
 
         agregarboton.setText("Agregar");
+        agregarboton.setActionCommand("agregarcampos");
 
         limpiarboton.setText("Limpiar");
+        limpiarboton.setActionCommand("limpiarcampos");
 
         jLabel1.setText("CodigoSapBP");
 

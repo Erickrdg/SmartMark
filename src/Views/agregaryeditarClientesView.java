@@ -51,6 +51,7 @@ public class agregaryeditarClientesView extends javax.swing.JInternalFrame {
         jLabel5.setText("Pedido");
 
         agregarboton.setText("Agregar");
+        agregarboton.setActionCommand("agregarcampos");
         agregarboton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 agregarbotonActionPerformed(evt);
@@ -58,6 +59,7 @@ public class agregaryeditarClientesView extends javax.swing.JInternalFrame {
         });
 
         limpiarboton.setText("Limpiar");
+        limpiarboton.setActionCommand("limpiarcampos");
 
         txtnombre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

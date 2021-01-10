@@ -33,12 +33,16 @@ public class BprincipalView extends javax.swing.JInternalFrame {
         recargarBoton = new javax.swing.JButton();
 
         crearBoton.setText("Crear");
+        crearBoton.setActionCommand("crearproducto");
 
         editarBoton.setText("Editar");
+        editarBoton.setActionCommand("editarproducto");
 
         eliminarBoton.setText("Eliminar");
+        eliminarBoton.setActionCommand("eliminarproducto");
 
         recargarBoton.setText("Recargar");
+        recargarBoton.setActionCommand("recargarproducto");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
