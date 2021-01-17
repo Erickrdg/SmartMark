@@ -5,19 +5,27 @@
  */
 package Views;
 
+import Controladoresview.ControladorBConsumible;
+import SmartConexion.SQLServerConnection;
+
 /**
  *
  * @author FireX
  */
 public class BConsumiblesView extends javax.swing.JInternalFrame {
-
+  BConsumiblesView consumibleView; 
     /**
      * Creates new form BConsumiblesView
      */
     public BConsumiblesView() {
         initComponents();
+       
     }
-
+        private void setControllers(SQLServerConnection connection){
+            controladorBConsumible = new ControladorBConsumible(this, connection);
+            
+        }
+        
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
