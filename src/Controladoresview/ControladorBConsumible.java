@@ -5,6 +5,8 @@
  */
 package Controladoresview;
 
+import SmartConexion.SQLServerConnection;
+import Views.BConsumiblesView;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -13,6 +15,17 @@ import java.awt.event.ActionListener;
  * @author FireX
  */
 public class ControladorBConsumible implements ActionListener {
+
+    BConsumiblesView consumibles;
+    SQLServerConnection connectio;
+    
+    public ControladorBConsumible() {
+    }
+
+    public ControladorBConsumible(BConsumiblesView consumibles, SQLServerConnection connectio) {
+        this.consumibles = consumibles;
+        this.connectio = connectio;
+    }
 
     @Override
     public void actionPerformed(ActionEvent e) {

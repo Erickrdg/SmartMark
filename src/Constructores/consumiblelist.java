@@ -10,7 +10,5 @@ package Constructores;
  * @author FireX
  */
 public class consumiblelist {
-    
-    private void setControllers
-    
+        
 }

@@ -14,6 +14,7 @@ import SmartConexion.SQLServerConnection;
  */
 public class BConsumiblesView extends javax.swing.JInternalFrame {
   BConsumiblesView consumibleView; 
+  ControladorBConsumible controladorBConsumible;
     /**
      * Creates new form BConsumiblesView
      */

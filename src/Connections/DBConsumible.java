@@ -7,7 +7,7 @@ package Connections;
 
 import Modelos.BodegaConsumibles;
 import SmartConexion.SQLServerConnection;
-import SmartConexion.Util;
+import SmartConexion.*;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.ResultSet;
@@ -82,7 +82,7 @@ public class DBConsumible {
         try{
             dbConn.Open(1);
             CallableStatement Command = dbConn.connection.prepareCall("{call Production.uspGetCategories(?)}");
-            Command.setInt("ProductCategoryID", CategoryID);
+            Command.setString("ProductCategoryID", Codigosapbod);
             ResultSet rs = Command.executeQuery();
             if(rs.next()){
                 c.setCodigosapbod(rs.getString("ProductCategoryID"));
@@ -106,8 +106,8 @@ public class DBConsumible {
         try{
             dbConn.Connect();
             CallableStatement Command = dbConn.connection.prepareCall("{call Production.uspGetCategories(?,?)}");
-            Command.setInt("ProductCategoryID", CategoryID);
-            Command.setString("Name", CategoryName);
+            Command.setString("ProductCategoryID", Codigosapbod);
+            Command.setString("Name", Fabricante);
             ResultSet rs = Command.executeQuery();
             if(rs.next()){
                c.setCodigosapbod(rs.getString("ProductCategoryID"));
@@ -124,7 +124,7 @@ public class DBConsumible {
         }
         return c;
     }
-    public Result insert(Category category)throws ClassNotFoundException, SQLException {
+    /*public Result insert(Category category)throws ClassNotFoundException, SQLException {
         Result r=new Result();
         try
         {  
@@ -144,8 +144,8 @@ public class DBConsumible {
            throw e;
         }
         return r;
-    }
-    public Result update(Category category)throws ClassNotFoundException, SQLException {
+    }*/
+  /*  public Result update(Category category)throws ClassNotFoundException, SQLException {
         Result r=new Result();
         try
         {  
@@ -164,7 +164,7 @@ public class DBConsumible {
            throw e;
         }
         return r;
-    }
+    }*/
     }
 
 

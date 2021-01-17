@@ -10,7 +10,7 @@
  * o el uso u otros tratos en el software.
  * 
  */
-package datalayer;
+package SmartConexion;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 /**
